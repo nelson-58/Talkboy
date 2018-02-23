@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		57BB9AB620402806003A79F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB9AB520402806003A79F7 /* AppDelegate.swift */; };
-		57BB9AB820402806003A79F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB9AB720402806003A79F7 /* ViewController.swift */; };
 		57BB9ABB20402806003A79F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB9AB920402806003A79F7 /* Main.storyboard */; };
 		57BB9ABE20402806003A79F7 /* Talkboy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57BB9ABC20402806003A79F7 /* Talkboy.xcdatamodeld */; };
 		57BB9AC020402806003A79F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BB9ABF20402806003A79F7 /* Assets.xcassets */; };
 		57BB9AC320402806003A79F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB9AC120402806003A79F7 /* LaunchScreen.storyboard */; };
+		57BB9ACB20402937003A79F7 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB9ACA20402937003A79F7 /* ItemsTableViewController.swift */; };
+		57BB9ACD2040296A003A79F7 /* SoundStudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB9ACC2040296A003A79F7 /* SoundStudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57BB9AB220402806003A79F7 /* Talkboy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talkboy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BB9AB520402806003A79F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57BB9AB720402806003A79F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57BB9ABA20402806003A79F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57BB9ABD20402806003A79F7 /* Talkboy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Talkboy.xcdatamodel; sourceTree = "<group>"; };
 		57BB9ABF20402806003A79F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57BB9AC220402806003A79F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57BB9AC420402806003A79F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BB9ACA20402937003A79F7 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		57BB9ACC2040296A003A79F7 /* SoundStudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStudioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				57BB9AB520402806003A79F7 /* AppDelegate.swift */,
-				57BB9AB720402806003A79F7 /* ViewController.swift */,
+				57BB9ACA20402937003A79F7 /* ItemsTableViewController.swift */,
+				57BB9ACC2040296A003A79F7 /* SoundStudioViewController.swift */,
 				57BB9AB920402806003A79F7 /* Main.storyboard */,
 				57BB9ABF20402806003A79F7 /* Assets.xcassets */,
 				57BB9AC120402806003A79F7 /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BB9ABE20402806003A79F7 /* Talkboy.xcdatamodeld in Sources */,
-				57BB9AB820402806003A79F7 /* ViewController.swift in Sources */,
+				57BB9ACB20402937003A79F7 /* ItemsTableViewController.swift in Sources */,
+				57BB9ACD2040296A003A79F7 /* SoundStudioViewController.swift in Sources */,
 				57BB9AB620402806003A79F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
